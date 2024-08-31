@@ -23,5 +23,20 @@ function sillyfyText(str) {
 }
 
 submitBtn.addEventListener('click', function() {
+    const yeah = document.getElementById("yeah");
+    yeah.load();
     result.textContent = sillyfyText(inputBar.value);
+    yeah.play();
 });
+
+window.addEventListener('load', function() {
+    const hi = document.getElementById("hi");
+    hi.load()
+    hi.play()
+})
+
+window.addEventListener('beforeunload', function() {
+    const bye = document.getElementById("bye");
+    bye.load()
+    bye.play()
+})
