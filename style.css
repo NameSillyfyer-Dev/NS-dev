@@ -66,5 +66,5 @@ body {
 #container {
     border-radius: 20px;
     border-color: black;
-    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur();
 }
