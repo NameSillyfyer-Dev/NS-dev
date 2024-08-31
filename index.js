@@ -2,7 +2,7 @@ const result = document.getElementById("result text");
 const inputBar = document.getElementById("inputBar");
 const submitBtn = document.getElementById("submitBtn");
 
-const startArray = ["🎉","✨","𝓼𝔀𝓪𝓰","𝓪𝔀𝓮𝓼𝓸𝓶𝓮","𝓯𝓻𝓮𝓪𝓴𝔂", "𝓼𝓲𝓵𝓵𝔂", "★"];
+const startArray = ["🎉","✨","𝓼𝔀𝓪𝓰","𝓪𝔀𝓮𝓼𝓸𝓶𝓮","𝓯𝓻𝓮𝓪𝓴𝔂", "𝓼𝓲𝓵𝓵𝔂", "★", "bread"];
 
 const endArray = [":3", "★", "😎", "💥"];
 
