@@ -2,7 +2,7 @@ const result = document.getElementById("result text");
 const inputBar = document.getElementById("inputBar");
 const submitBtn = document.getElementById("submitBtn");
 
-let startArray = ["🎉","✨","𝓼𝔀𝓪𝓰","𝓪𝔀𝓮𝓼𝓸𝓶𝓮","𝓯𝓻𝓮𝓪𝓴𝔂", "𝓼𝓲𝓵𝓵𝔂", "★", "bread", "🌟", "🐈"];
+let startArray = ["🎉","✨","𝓼𝔀𝓪𝓰","𝓪𝔀𝓮𝓼𝓸𝓶𝓮","𝓯𝓻𝓮𝓪𝓴𝔂", "𝓼𝓲𝓵𝓵𝔂", "★", "bread", "🌟", "🐈", "𝓮𝓿𝓲𝓵"];
 
 let endArray = [":3", "★", "😎", "💥", "🌟"];
 
@@ -43,11 +43,4 @@ window.addEventListener('beforeunload', function() {
     const bye = document.getElementById("bye");
     bye.load()
     bye.play()
-})
-
-if(window.location.href.includes("?evil")) {
-    startArray = ["𝓮𝓿𝓲𝓵"];
-    endArray = [];
-    endRepeat = 0;
-    startRepeat = 1;
-}
+});
