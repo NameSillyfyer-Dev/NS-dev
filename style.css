@@ -62,3 +62,8 @@ body {
 #container #credits {
     font-size: 10px;
 }
+
+#container {
+    border-radius: 20px;
+    backdrop-filter: blur 20px;
+}
