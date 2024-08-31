@@ -6,15 +6,19 @@ const startArray = ["🎉","✨","𝓼𝔀𝓪𝓰","𝓪𝔀𝓮𝓼𝓸𝓶�
 
 const endArray = [":3", "★", "😎", "💥", "🌟"];
 
+let endRepeat = 3;
+
+let startRepeat = 2;
+
 function sillyfyText(str) {
     let sillifiedText = "";
     let toAdd = "";
     let toAddEnd = " ";
-    for(let i = 0; i < 2; i++) {
+    for(let i = 0; i < startRepeat; i++) {
         const silly = startArray[Math.floor(Math.random() * startArray.length)]
         toAdd += silly + " ";
     }
-    for(let i = 0; i < 3; i++) {
+    for(let i = 0; i < endRepeat; i++) {
         const silly = endArray[Math.floor(Math.random() * endArray.length)]
         toAddEnd += silly + " ";
     }
@@ -40,3 +44,10 @@ window.addEventListener('beforeunload', function() {
     bye.load()
     bye.play()
 })
+
+if(window.location.href.includes("?evil")) {
+    startArray = ["𝓮𝓿𝓲𝓵"];
+    endArray = [];
+    endRepeat = 0;
+    startRepeat = 1;
+}
