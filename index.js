@@ -1,0 +1,27 @@
+const result = document.getElementById("result text");
+const inputBar = document.getElementById("inputBar");
+const submitBtn = document.getElementById("submitBtn");
+
+const startArray = ["✨", "𝓯𝓻𝓮𝓪𝓴𝔂", "𝓼𝓲𝓵𝓵𝔂", "★"];
+
+const endArray = [":3", "★", "😎"];
+
+function sillyfyText(str) {
+    let sillifiedText = "";
+    let toAdd = "";
+    let toAddEnd = " ";
+    for(let i = 0; i < 2; i++) {
+        const silly = startArray[Math.floor(Math.random() * startArray.length)]
+        toAdd += silly + " ";
+    }
+    for(let i = 0; i < 3; i++) {
+        const silly = endArray[Math.floor(Math.random() * endArray.length)]
+        toAddEnd += silly + " ";
+    }
+    sillifiedText = toAdd.trim() + " " + str + " " + toAddEnd.trim()
+    return sillifiedText
+}
+
+submitBtn.addEventListener('click', function() {
+    result.textContent = sillyfyText(inputBar.value);
+});
