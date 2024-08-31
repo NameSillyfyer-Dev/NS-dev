@@ -16,6 +16,7 @@ body {
     height: 100vh;
     flex-direction: column;
     text-align: center;
+    height: 1000px;
 }
 
 #container{
@@ -47,4 +48,13 @@ body {
 
 #container #submitBtn:hover {
     background-color: hsl(0, 0%, 90%) ;
+}
+
+#container #gif {
+    width: 150px;
+    border-radius: 10px;
+}
+
+#container #gifs {
+    margin: 50px;
 }
