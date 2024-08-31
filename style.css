@@ -58,3 +58,7 @@ body {
 #container #gifs {
     margin: 50px;
 }
+
+#container #credits {
+    font-size: 50px;
+}
