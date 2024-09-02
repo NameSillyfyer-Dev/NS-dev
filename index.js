@@ -1,5 +1,3 @@
-const min = document.getElementById("startSilly");
-const max = document.getElementById("endSilly");
 const result = document.getElementById("result text");
 const inputBar = document.getElementById("inputBar");
 const submitBtn = document.getElementById("submitBtn");
@@ -8,9 +6,9 @@ let startArray = ["🎉","✨","𝓼𝔀𝓪𝓰","𝓪𝔀𝓮𝓼𝓸𝓶𝓮"
 
 let endArray = [":3", "★", "😎", "💥", "🌟", "meow"];
 
-let endRepeat = Number(max.value);
+let endRepeat = 2;
 
-let startRepeat = Number(min.value);
+let startRepeat = 3;
 
 function sillyfyText(str) {
     let sillifiedText = "";
