@@ -71,6 +71,5 @@ body {
 
 #containee #fameImage img{
     border-radius: 20px;
-    height: auto;
-    max-width: 100px;
+    width: 100px;
 }
