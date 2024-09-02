@@ -1,3 +1,4 @@
+const min = document.getElementById("minSilly");
 const result = document.getElementById("result text");
 const inputBar = document.getElementById("inputBar");
 const submitBtn = document.getElementById("submitBtn");
@@ -8,7 +9,7 @@ let endArray = [":3", "★", "😎", "💥", "🌟", "meow"];
 
 let endRepeat = 3;
 
-let startRepeat = 3;
+let startRepeat = min.value;
 
 function sillyfyText(str) {
     let sillifiedText = "";
