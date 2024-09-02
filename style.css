@@ -66,10 +66,16 @@ body {
 #container {
     border-radius: 20px;
     border-color: black;
-    -webkit-backdrop-filter: blur(20);
+    backdrop-filter: blur(20);
 }
 
 #container #fameImage img{
     border-radius: 20px;
     width: 100px;
+}
+
+#container #numInputs {
+    font-family: Poppins, Helvetica, sans-serif;
+    outline: none;
+    border-radius: 20px;
 }
