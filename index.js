@@ -8,9 +8,9 @@ let startArray = ["🎉","✨","𝓼𝔀𝓪𝓰","𝓪𝔀𝓮𝓼𝓸𝓶𝓮"
 
 let endArray = [":3", "★", "😎", "💥", "🌟", "meow"];
 
-let endRepeat = max.value;
+let endRepeat = Number(max.value);
 
-let startRepeat = min.value;
+let startRepeat = Number(min.value);
 
 function sillyfyText(str) {
     let sillifiedText = "";
