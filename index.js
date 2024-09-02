@@ -1,4 +1,5 @@
-const min = document.getElementById("minSilly");
+const min = document.getElementById("startSilly");
+const max = document.getElementById("endSilly");
 const result = document.getElementById("result text");
 const inputBar = document.getElementById("inputBar");
 const submitBtn = document.getElementById("submitBtn");
@@ -7,7 +8,7 @@ let startArray = ["🎉","✨","𝓼𝔀𝓪𝓰","𝓪𝔀𝓮𝓼𝓸𝓶𝓮"
 
 let endArray = [":3", "★", "😎", "💥", "🌟", "meow"];
 
-let endRepeat = 3;
+let endRepeat = max.value;
 
 let startRepeat = min.value;
 
