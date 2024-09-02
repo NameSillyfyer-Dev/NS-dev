@@ -2,9 +2,9 @@ const result = document.getElementById("result text");
 const inputBar = document.getElementById("inputBar");
 const submitBtn = document.getElementById("submitBtn");
 
-let startArray = ["🎉","✨","𝓼𝔀𝓪𝓰","𝓪𝔀𝓮𝓼𝓸𝓶𝓮","𝓯𝓻𝓮𝓪𝓴𝔂", "𝓼𝓲𝓵𝓵𝔂", "★", "bread", "🌟", "🐈", "𝓮𝓿𝓲𝓵", "tally", "𝓼𝓴𝓲𝓫𝓲𝓭𝓲", "yoyle"];
+let startArray = ["🎉","✨","𝓼𝔀𝓪𝓰","𝓪𝔀𝓮𝓼𝓸𝓶𝓮","𝓯𝓻𝓮𝓪𝓴𝔂", "𝓼𝓲𝓵𝓵𝔂", "★", "bread", "🌟", "🐈", "𝓮𝓿𝓲𝓵", "tally", "𝓼𝓴𝓲𝓫𝓲𝓭𝓲", "yoyle", "schlrimbo"];
 
-let endArray = [":3", "★", "😎", "💥", "🌟"];
+let endArray = [":3", "★", "😎", "💥", "🌟", "meow"];
 
 let endRepeat = 3;
 
