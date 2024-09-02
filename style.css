@@ -69,7 +69,7 @@ body {
     -webkit-backdrop-filter: blur(20);
 }
 
-#containee #fameImage img{
+#container #fameImage img{
     border-radius: 20px;
     width: 100px;
 }
