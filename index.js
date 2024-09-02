@@ -4,11 +4,11 @@ const submitBtn = document.getElementById("submitBtn");
 
 let startArray = ["🎉","✨","𝓼𝔀𝓪𝓰","𝓪𝔀𝓮𝓼𝓸𝓶𝓮","𝓯𝓻𝓮𝓪𝓴𝔂", "𝓼𝓲𝓵𝓵𝔂", "★", "bread", "🌟", "🐈", "𝓮𝓿𝓲𝓵", "tally", "𝓼𝓴𝓲𝓫𝓲𝓭𝓲", "yoyle", "scrimblo", "criminal"];
 
-let endArray = [":3", "★", "😎", "💥", "🌟", "meow"];
+let endArray = [":3", "★", "😎", "💥", "🌟", "meow", "marv"];
 
 let endRepeat = 3;
 
-let startRepeat = 2;
+let startRepeat = 3;
 
 function sillyfyText(str) {
     let sillifiedText = "";
