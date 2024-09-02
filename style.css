@@ -68,3 +68,9 @@ body {
     border-color: black;
     -webkit-backdrop-filter: blur(20);
 }
+
+#containee #fameImage {
+    border-radius: 20px;
+    width: 90px;
+    height: auto;
+}
